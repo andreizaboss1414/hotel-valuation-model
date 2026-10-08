@@ -1,0 +1,45 @@
+{
+  "_note": "Fictional hotel. Numbers are illustrative assumptions in a plausible range for an upscale Zurich city hotel, not market data. Check every figure against a current source before quoting it.",
+  "name": "Fictional 120-room upscale city hotel, Zurich",
+  "currency": "CHF",
+  "rooms": 120,
+  "days_per_year": 365,
+  "occupancy": 0.74,
+  "adr": 285,
+  "rooms_margin": 0.70,
+  "rooms_variable_cost_pct": 0.10,
+  "outlets": [
+    {"name": "Food and beverage", "revenue": 4200000, "margin": 0.18},
+    {"name": "Spa and other operated", "revenue": 600000, "margin": 0.35}
+  ],
+  "scale_outlets_with_occupancy": true,
+  "undistributed_costs": {
+    "Administration and general": 1150000,
+    "Information and telecom systems": 200000,
+    "Sales and marketing": 800000,
+    "Property operation and maintenance": 600000,
+    "Utilities": 420000
+  },
+  "management_fee_base_pct": 0.03,
+  "management_fee_incentive_pct": 0.05,
+  "fixed_charges": {
+    "Property and capital taxes": 220000,
+    "Insurance": 130000
+  },
+  "ffe_reserve_pct": 0.04,
+  "capex": [0, 800000, 0, 0, 0],
+  "going_in_cap_rate": 0.0425,
+  "exit_cap_rate": 0.0475,
+  "discount_rate": 0.065,
+  "selling_costs_pct": 0.02,
+  "forecast": {
+    "occupancy": [0.75, 0.76, 0.76, 0.76],
+    "adr_growth": [0.025, 0.02, 0.02, 0.02],
+    "outlet_revenue_growth": 0.02,
+    "cost_growth": 0.015
+  },
+  "sensitivity": {
+    "cap_rate_steps": [-0.005, -0.0025, 0.0, 0.0025, 0.005],
+    "adr_steps": [-0.10, -0.05, 0.0, 0.05, 0.10]
+  }
+}

@@ -1,0 +1,35 @@
+# Same fictional hotel as example.json, in the two column CSV format.
+# Lists are separated by semicolons. Percentages may be written as 0.74 or 74%.
+key,value
+name,"Fictional 120-room upscale city hotel, Zurich"
+currency,CHF
+rooms,120
+days_per_year,365
+occupancy,74%
+adr,285
+rooms_margin,0.70
+rooms_variable_cost_pct,0.10
+outlet.Food and beverage.revenue,4'200'000
+outlet.Food and beverage.margin,0.18
+outlet.Spa and other operated.revenue,600000
+outlet.Spa and other operated.margin,0.35
+scale_outlets_with_occupancy,true
+undistributed.Administration and general,1150000
+undistributed.Information and telecom systems,200000
+undistributed.Sales and marketing,800000
+undistributed.Property operation and maintenance,600000
+undistributed.Utilities,420000
+management_fee_base_pct,0.03
+management_fee_incentive_pct,0.05
+fixed_charge.Property and capital taxes,220000
+fixed_charge.Insurance,130000
+ffe_reserve_pct,0.04
+capex,0;800000;0;0;0
+going_in_cap_rate,0.0425
+exit_cap_rate,0.0475
+discount_rate,0.065
+selling_costs_pct,0.02
+forecast.occupancy,0.75;0.76;0.76;0.76
+forecast.adr_growth,0.025;0.02;0.02;0.02
+forecast.outlet_revenue_growth,0.02
+forecast.cost_growth,0.015
