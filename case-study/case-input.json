@@ -1,0 +1,64 @@
+{
+  "_note": "FICTIONAL AND ILLUSTRATIVE. This is a demonstration work sample, not an appraisal and not a real hotel or transaction. Every figure below is a stated assumption in a plausible range for an upscale Zurich city hotel, unless a source is named in the accompanying review. Do not quote any number here as market data.",
+  "_assumption_labels": {
+    "occupancy_year1": "assumption. Positioned below the cited Zurich city average of 74.8% (JLL, H1 2025) to represent an underperforming asset.",
+    "adr_year1": "assumption. Set below the upscale Zurich comparable set to represent a rate-lagging asset.",
+    "rooms_margin": "assumption.",
+    "outlet_revenue_and_margin": "assumption. F&B margin set at the low end to represent under-invested, poorly merchandised space.",
+    "undistributed_costs": "assumption. Elevated as a share of revenue to represent an over-staffed, under-managed cost base.",
+    "cap_and_discount_rates": "assumption. Going-in cap above exit cap and discount rate above exit cap to reflect value-add risk.",
+    "forecast_paths": "assumption. Represents a five year repositioning case."
+  },
+  "name": "Fictional 140-room upscale hotel, Zurich city (demonstration case)",
+  "currency": "CHF",
+  "rooms": 140,
+  "days_per_year": 365,
+
+  "occupancy": 0.68,
+  "adr": 245.0,
+  "rooms_margin": 0.68,
+  "rooms_variable_cost_pct": 0.10,
+
+  "outlets": [
+    {"name": "Food and beverage", "revenue": 3400000, "margin": 0.12},
+    {"name": "Spa and other operated departments", "revenue": 700000, "margin": 0.30}
+  ],
+  "scale_outlets_with_occupancy": true,
+
+  "undistributed_costs": {
+    "Administration and general": 1250000,
+    "Information and telecom systems": 220000,
+    "Sales and marketing": 780000,
+    "Property operation and maintenance": 700000,
+    "Utilities": 480000
+  },
+
+  "management_fee_base_pct": 0.03,
+  "management_fee_incentive_pct": 0.05,
+
+  "fixed_charges": {
+    "Property and capital taxes": 240000,
+    "Insurance": 150000
+  },
+
+  "ffe_reserve_pct": 0.04,
+
+  "capex": [3000000, 4000000, 0, 0, 0],
+
+  "going_in_cap_rate": 0.0475,
+  "exit_cap_rate": 0.0475,
+  "discount_rate": 0.070,
+  "selling_costs_pct": 0.02,
+
+  "forecast": {
+    "occupancy": [0.70, 0.73, 0.75, 0.76],
+    "adr_growth": [0.035, 0.03, 0.025, 0.02],
+    "outlet_revenue_growth": 0.04,
+    "cost_growth": 0.015
+  },
+
+  "sensitivity": {
+    "cap_rate_steps": [-0.005, -0.0025, 0.0, 0.0025, 0.005],
+    "adr_steps": [-0.10, -0.05, 0.0, 0.05, 0.10]
+  }
+}
